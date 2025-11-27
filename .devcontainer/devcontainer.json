@@ -29,7 +29,11 @@
 		"5001": {
 			"protocol": "https"
 		}
-	}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/dotnet:2": {}
+	},
+	"postCreateCommand": "dotnet restore",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5001],
